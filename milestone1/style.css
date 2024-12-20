@@ -1,0 +1,112 @@
+/* General Styling */
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 50px 20px;  /* Adjusted padding */
+}
+
+.resume-container {
+    display: flex;
+    background-color: white;
+    width: 80%;
+    margin: 0 auto;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.left-section {
+    background-color: rgb(139, 82, 56);
+    color: white;
+    padding: 20px;
+    width: 20%;
+    text-align: center;
+    border-right: 5px solid #a76267;
+}
+
+.profile-picture {
+    width: 150px;
+    height: 150px;
+    margin-top: 10%;
+    border-radius: 50%;
+    border: 5px solid #a76267;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 24px;
+    margin: 10px 0;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+h3 {
+    font-size: 18px;
+    padding: 2%;
+    margin: 20px 0 10px;
+    color: black;
+    border-radius: 10px;
+    box-shadow: 0 0 15px #a76267;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+ul {
+    list-style-type: none;  /* Fixed the list style */
+    padding: 0;
+    margin: 10px 0;
+}
+
+ul li {
+    margin: 5px 0;
+}
+
+/* Right Section Styling */
+.right-section {
+    padding: 20px;
+    width: 75%;
+}
+
+button {
+    font-family: Arial, sans-serif;
+    border-radius: 10px;
+    box-shadow: 0 0 15px black;
+    cursor: pointer;
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+button:hover {
+    background-color: #ff737c;
+}
+/* Styling for Skills Section */
+.skills-list {
+    list-style-type: disc; /* Default round bullets */
+    padding-left: 20px; /* Adds some space between the bullets and text */
+}
+
+.skills-list li {
+    margin: 5px 0; /* Adds some space between list items */
+}
+
+/* Styling for Software Skills */
+#software-skills ul {
+    list-style-type: disc; /* Round bullets for software skills */
+    padding-left: 20px;
+}
+
+#software-skills li {
+    margin: 5px 0; /* Adds space between the list items */
+}
+/* Styling for Languages Section */
+#languages ul {
+    list-style-type: disc; /* Round bullets for languages */
+    padding-left: 20px;
+}
+
+#languages li {
+    margin: 5px 0; /* Adds space between list items */
+}
+
+
